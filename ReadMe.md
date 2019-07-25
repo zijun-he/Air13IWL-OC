@@ -1,9 +1,6 @@
 #### 2019-07-17
-
 + 添加`GPRW to XPRW`更名,`0D/6D`补丁,暂时性解决睡眠秒醒问题.
 + 更新配置文件:默认打开所有设备引导扫描,如需关闭修改`Config.plist`-`Misc`-`Security`-`ScanPolicy`为`983299`
-
-
 
 #### 2019-07-15
 + 使用OpenCore-0.0.3-Releases .
