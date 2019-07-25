@@ -30,6 +30,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>_Q11 to XQ11</string>
+				<key>Count</key>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -44,6 +46,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>_Q12 to XQ12</string>
+				<key>Count</key>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -58,6 +62,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>GPRW to XPRW</string>
+				<key>Count</key>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -496,6 +502,13 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>UIScale</key>
+				<data>
+				AQ==
+				</data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
@@ -504,7 +517,15 @@
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>
-				Zw==
+				ZwAAAA==
+				</data>
+				<key>nvda_drv</key>
+				<data>
+				MA==
+				</data>
+				<key>prev-lang:kbd</key>
+				<data>
+				cnUtUlU6MjUy
 				</data>
 			</dict>
 		</dict>
