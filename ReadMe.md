@@ -1,6 +1,6 @@
 #### 2019-07-27
 
-+ 合并`SSDT-Air13IWL.aml`、`SSDT-GPRW.aml`
++ 合并更新`SSDT-Air13IWL.aml`、`SSDT-GPRW.aml`
 + 从`Air13IWL.kext`中分离`BrcmBluetoothInjector.kext `
 + 补全部分更名参数
 + 添加启动工具`UEFI Shell`和`Clean Nvram`
