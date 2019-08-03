@@ -22,27 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>AppleAudio-ALC236-A170</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.rehabman.driver.FakePCIID</string>
-			<key>FakeProperties</key>
-			<dict>
-				<key>RM,device-id</key>
-				<data>
-				cJ0AAA==
-				</data>
-			</dict>
-			<key>IOClass</key>
-			<string>FakePCIID</string>
-			<key>IOMatchCategory</key>
-			<string>FakePCIID</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0xa1708086</string>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-		</dict>
-		<key>AppleCPUFriendData-8259U</key>
+		<key>AppleCPUFriendDataProvider-8259U</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleACPIPlatform</string>
@@ -1015,6 +995,26 @@
 			Y3Q+Cgk8a2V5PnBtc3BGaWxlPC9rZXk+Cgk8aW50ZWdlcj4xMzwv
 			aW50ZWdlcj4KPC9kaWN0Pgo8L3BsaXN0Pgo=
 			</data>
+		</dict>
+		<key>AppleIntelHDMIAudio-9DC8</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				cJ0AAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x9dc88086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
 		</dict>
 		<key>AppleUSBXHCISPT-9DED</key>
 		<dict>

@@ -1,3 +1,12 @@
+#### 2019-08-03
+
++ 移除`SSDT-Air13IWL.aml`中的`GPRW`补丁
++ 移除`Config.plist`-`ACPI`-`Patch`中的`GPRW to XPRW`更名
++ 移除声卡注入`device-id`，修改`Air13IWL.kext`，声卡驱动可单独使用不在受`FakePCIID.kext`和`FakePCIID_Intel_HDMI_Audio.kext`影响，使用HDMI音频仍需`FakePCIID.kext`
++ 参考`宪武`大佬关于`AptioMemoryFix.efi`正确使用方式，默认打开`Config.plist`-`Kernel`-`Quirks`-`DisableIoMapper`，同时建议在隐藏BIOS禁用`CFG Lock`
++ 添加启动项`Verify MsrE2`可查看MsrE2(CFG Lock)锁定解锁状态
++ 移除部分驱动内的非必要文件，移除`Config.plist`-`NVRAM`-`LegacySchema`下内容
+
 #### 2019-07-27
 
 + 合并更新`SSDT-Air13IWL.aml`、`SSDT-GPRW.aml`
