@@ -22,113 +22,57 @@
 			<dict>
 				<key>Comment</key>
 				<string>Windows 2018 to Darwin</string>
-				<key>Count</key>
-				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
 				V2luZG93cyAyMDE4AA==
 				</data>
-				<key>OemTableId</key>
-				<data>
-				Q0ItMDEgICA=
-				</data>
 				<key>Replace</key>
 				<data>
 				RGFyd2luAKOjo6Ojow==
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>259150</integer>
-				<key>TableSignature</key>
-				<data>
-				RFNEVA==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>GPRW to XPRW</string>
-				<key>Count</key>
-				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
 				R1BSVwI=
 				</data>
-				<key>OemTableId</key>
-				<data>
-				Q0ItMDEgICA=
-				</data>
 				<key>Replace</key>
 				<data>
 				WFBSVwI=
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>259150</integer>
-				<key>TableSignature</key>
-				<data>
-				RFNEVA==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>_Q11 to XQ11</string>
-				<key>Count</key>
-				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
 				X1ExMQ==
 				</data>
-				<key>OemTableId</key>
-				<data>
-				Q0ItMDEgICA=
-				</data>
 				<key>Replace</key>
 				<data>
 				WFExMQ==
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>259150</integer>
-				<key>TableSignature</key>
-				<data>
-				RFNEVA==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>_Q12 to XQ12</string>
-				<key>Count</key>
-				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
 				X1ExMg==
 				</data>
-				<key>OemTableId</key>
-				<data>
-				Q0ItMDEgICA=
-				</data>
 				<key>Replace</key>
 				<data>
 				WFExMg==
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>259150</integer>
-				<key>TableSignature</key>
-				<data>
-				RFNEVA==
 				</data>
 			</dict>
 		</array>
