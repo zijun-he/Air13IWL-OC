@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18G87</string>
+	<string>17D102</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.0</string>
+	<string>1.3.9</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,21 +25,21 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.4.0</string>
+	<string>1.3.9</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>10B61</string>
+	<string>9F2000</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>18B71</string>
+	<string>17E189</string>
 	<key>DTSDKName</key>
-	<string>macosx10.14</string>
+	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>1010</string>
+	<string>0941</string>
 	<key>DTXcodeBuild</key>
-	<string>10B61</string>
+	<string>9F2000</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>HDA Hardware Config Resource</key>
@@ -1340,12 +1340,12 @@
 					<key>ConfigData</key>
 					<data>
 					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxwgAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHosB
-					lx8EAacc8AGnHQABpx4AAacfQAG3HPABtx0A
-					AbceAAG3H0ABtwwCAdcc8AHXHQAB1x4AAdcf
-					QAHnHPAB5x0AAeceAAHnH0ACFxwQAhcdEAIX
-					HisCFx8EAhcMAg==
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHoEB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHCACFx0QAhceIQIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -1369,9 +1369,12 @@
 					<integer>283902518</integer>
 					<key>ConfigData</key>
 					<data>
-					AUccEAFHHQEBRx4XAUcfmQIXHB8CFx0QAhce
-					IQIXHwQBJxwgAScdAQEnHqYBJx+ZAZccMAGX
-					HRABlx6BAZcfBAFHDAI=
+					ATcc8AE3HQABNx4AATcfQAFHHBABRx0BAUce
+					FwFHH5ABRwwCAYcc8AGHHQABhx4AAYcfQAGX
+					HDABlx0QAZcegQGXHwQBpxzwAacdAAGnHgAB
+					px9AAbcc8AG3HQABtx4AAbcfQAHXHEUB1x0b
+					AdceZgHXH0AB5xzwAecdAAHnHgAB5x9AAhcc
+					HwIXHRACFx4hAhcfBA==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -2009,36 +2012,6 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>11</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Realtek ALC257 for Lenovo Legion Y540 and Y7000-2019</string>
-					<key>CodecID</key>
-					<integer>283902551</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxwwAZcdEAGXHosB
-					lx8EAacc8AGnHQABpx4AAacfQAG3HPABtx0A
-					AbceAAG3H0ABtwwCAdcc8AHXHQAB1x4AAdcf
-					QAHnHPAB5x0AAeceAAHnH0ACFxwfAhcdEAIX
-					HisCFx8EAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>18</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
@@ -3439,32 +3412,6 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Andres ZeroCross - Realtek ALC274 for Dell Inspiron 27-7777 AIO Series</string>
-					<key>CodecID</key>
-					<integer>283902580</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6gAScfkAFnHBABZx0BAWce
-					FwFnH5ABlxxAAZcdAAGXHoEBlx8EAhccIAIX
-					HRACFx4hAhcfBAFHDAICFwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>21</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AWcMAgIXDAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
 					<string>Mirone - Realtek ALC275</string>
 					<key>CodecID</key>
 					<integer>283902581</integer>
@@ -4422,32 +4369,6 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Realtek ALC289 for Acer PT515-51 By Bugprogrammer and Rover</string>
-					<key>CodecID</key>
-					<integer>283902601</integer>
-					<key>ConfigData</key>
-					<data>
-					ATccMAE3HQEBNx6mATcftwFHHBABRx0BAUce
-					FwFHH5ABRwwCAbccQAG3HRABtx6BAbcfAwG3
-					DAICFxwgAhcdEAIXHiECFx8DAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>23</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAICFwwC
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>

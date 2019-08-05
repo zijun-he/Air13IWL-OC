@@ -1,3 +1,14 @@
+#### 2019-08-06
+
++ `Acidanthera`原版`AppleALC.kext` + `ALCPlugFix` + `CodecCommander.kext` 能使3.5mm耳麦正常切换,但目前在睡眠唤醒的时候大概率会出现人声丢失,重新插拔可恢复正常!
++ `子骏`定制的`AppleALC.kext`无需使用`ALCPlugFix`和`CodecCommander.kext` ,耳机正常,睡眠唤醒正常,但目前麦克风部分需要手动切换！
++ 默认关闭下列驱动,有需要的请至`Config.plist` - `Kernel` - `Add` 下找到对应驱动的参数`Enabled`改为为`YES`
+    + `CodecCommander.kext`
+    + `BrcmBluetoothInjector.kext`
+    + `BrcmFirmwareData.kext`
+    + `BrcmPatchRAM2.kext`
++ 默认使用`子骏`定制版`AppleALC.kext`,如需使用`Acidanthera`原版,请至`EFI` - `OC` - `Kexts`中删除`AppleALC.kext` 修改`AppleALC-Acidanthera.kext`文件名为`AppleALC.kext`,希望大家多多试用反馈,有条件的可以联系`子骏`帮忙提交相关部分给`Acidanthera`
+
 #### 2019-08-05
 
 + 移除所有更名的限制查找条件以保证不同版本BIOS的通用性
