@@ -1,3 +1,11 @@
+#### 2019-08-10
+
++ 更新OpenCore至0.0.4版本,更新对应版本`Config.plist`
++ 更新`EFI`-`OC`-`Drivers`驱动,移除`FwRuntimeServices.efi`,增加`FwRuntimeServices.efi`
++ 更新`EFI`-`OC`-`Tools`工具
++ 定制`AppleALC.kext`,默认使用ID：98（62000000）无需使用`ALCPlugFix`和`CodecCommander.kext` ,3.5mm麦克风需要手动切换；可选原版ID：99（63000000）需安装 `ALCPlugFix` 并打开 `CodecCommander.kext` 驱动
++ 默认打开 `BrcmFirmwareData.kext` , `BrcmPatchRAM2.kext`（`DW1820A`蓝牙驱动）,此驱动经过修改只适合ID：`0a5c_6412`使用
+
 #### 2019-08-06
 
 + `Acidanthera`原版`AppleALC.kext` + `ALCPlugFix` + `CodecCommander.kext` 能使3.5mm耳麦正常切换,但目前在睡眠唤醒的时候大概率会出现人声丢失,重新插拔可恢复正常!

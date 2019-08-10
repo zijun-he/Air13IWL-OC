@@ -90,6 +90,32 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>Booter</key>
+	<dict>
+		<key>Quirks</key>
+		<dict>
+			<key>AvoidRuntimeDefrag</key>
+			<true/>
+			<key>DisableVariableWrite</key>
+			<false/>
+			<key>DiscardHibernateMap</key>
+			<false/>
+			<key>EnableSafeModeSlide</key>
+			<false/>
+			<key>EnableWriteUnprotector</key>
+			<true/>
+			<key>ForceExitBootServices</key>
+			<false/>
+			<key>ProtectCsmRegion</key>
+			<false/>
+			<key>ProvideCustomSlide</key>
+			<false/>
+			<key>SetupVirtualMap</key>
+			<true/>
+			<key>ShrinkMemoryMap</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
@@ -107,7 +133,7 @@
 			<dict>
 				<key>layout-id</key>
 				<data>
-				YwAAAA==
+				YgAAAA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -233,6 +259,16 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Enabled</key>
 				<true/>
@@ -258,16 +294,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>CPUFriend.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CPUFriend</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -371,14 +397,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>BrcmBluetoothInjector.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>BrcmFirmwareData.kext</string>
 				<key>Enabled</key>
 				<true/>
@@ -454,6 +472,8 @@
 	</dict>
 	<key>Misc</key>
 	<dict>
+		<key>BlessOverride</key>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
@@ -486,6 +506,19 @@
 			<key>Target</key>
 			<integer>0</integer>
 		</dict>
+		<key>Entries</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Other Boot Manager</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Name</key>
+				<string>Every UEFI</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)/HD(1,GPT,8763DD59-B7D6-4734-9B01-D7BCD42ECDDA,0x800,0x96000)/EFI/BOOT/BOOTX64.EFI</string>
+			</dict>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>ExposeSensitiveData</key>
@@ -537,13 +570,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<dict>
-				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
-			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
@@ -608,7 +634,7 @@
 		<array>
 			<string>HFSPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>AptioMemoryFix.efi</string>
+			<string>FwRuntimeServices.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>
@@ -623,6 +649,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>AvoidHighAlloc</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
