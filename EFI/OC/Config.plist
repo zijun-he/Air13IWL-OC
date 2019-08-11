@@ -477,17 +477,17 @@
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
-			<string></string>
+			<string>ForceGraphics</string>
 			<key>ConsoleBehaviourUi</key>
-			<string></string>
+			<string>ForceText</string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideSelf</key>
-			<false/>
+			<true/>
 			<key>Resolution</key>
-			<string></string>
+			<string>1920x1080</string>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
@@ -516,7 +516,7 @@
 				<key>Name</key>
 				<string>Every UEFI</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)/HD(1,GPT,8763DD59-B7D6-4734-9B01-D7BCD42ECDDA,0x800,0x96000)/EFI/BOOT/BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -530,7 +530,7 @@
 			<key>RequireVault</key>
 			<false/>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>3080963</integer>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -546,16 +546,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Clean Nvram</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>Clean Nvram</string>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Verify MsrE2</string>
 				<key>Enabled</key>
 				<true/>
@@ -563,6 +553,16 @@
 				<string>Verify MsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Clean Nvram</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>Clean Nvram</string>
+				<key>Path</key>
+				<string>CleanNvram.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -574,8 +574,6 @@
 			<dict>
 				<key>boot-args</key>
 				<string>brcmfx-country=HK</string>
-				<key>bootercfg</key>
-				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
@@ -632,7 +630,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HFSPlus.efi</string>
+			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
 		</array>
@@ -641,7 +639,7 @@
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>ConsoleControl</key>
-			<false/>
+			<true/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>
@@ -656,7 +654,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
-			<false/>
+			<true/>
 			<key>ProvideConsoleGop</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>

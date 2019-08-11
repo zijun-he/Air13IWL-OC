@@ -1,3 +1,7 @@
+#### 2019-08-12
+
++ 更新`Acidanthera`所有引导,驱动,工具至Releases版
+
 #### 2019-08-10
 
 + 更新OpenCore至0.0.4版本,更新对应版本`Config.plist`
