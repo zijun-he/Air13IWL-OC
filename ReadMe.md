@@ -1,3 +1,18 @@
+## Lenovo 小新 Air13IWL OpenCore `(xlivans)`
+### 感谢 宪武 小兵 各位群友 大佬们 为此机型的辛苦付出
+
+##### 如何安装系统请跳跃至小兵大佬教程 : https://github.com/daliansky/Lenovo-Air13-IWL
+
+##### 配置说明 : https://github.com/xlivans/Air13IWL
+
+##### 自用 OpenCore : https://github.com/xlivans/Air13IWL-OC
+
+##### 自用 Clover : https://github.com/xlivans/Air13IWL-Clover
+
+##### 微云 : https://share.weiyun.com/5yMO9jB
+
+----
+
 #### 2019-08-13
 
 + 更新`宪武`大佬最新`GPRW`补丁,合并至`SSDT-Air13IWL.aml`
