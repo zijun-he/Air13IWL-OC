@@ -14,25 +14,27 @@
 				<key>Path</key>
 				<string>SSDT-AIR13IWL.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>TPXX</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TPXX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>RMCFMap</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RMCFMap.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
 		<key>Patch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Windows 2018 to Darwin</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				V2luZG93cyAyMDE4AA==
-				</data>
-				<key>Replace</key>
-				<data>
-				RGFyd2luAKOjo6Ojow==
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>GPRW to XPRW</string>
@@ -45,34 +47,6 @@
 				<key>Replace</key>
 				<data>
 				WFBSVwI=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>_Q11 to XQ11</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				X1ExMQ==
-				</data>
-				<key>Replace</key>
-				<data>
-				WFExMQ==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>_Q12 to XQ12</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				X1ExMg==
-				</data>
-				<key>Replace</key>
-				<data>
-				WFExMg==
 				</data>
 			</dict>
 		</array>
@@ -487,7 +461,7 @@
 			<key>HideSelf</key>
 			<true/>
 			<key>Resolution</key>
-			<string>1920x1080</string>
+			<string></string>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
@@ -507,18 +481,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Other Boot Manager</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Name</key>
-				<string>Every UEFI</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>ExposeSensitiveData</key>
@@ -570,6 +533,13 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>UIScale</key>
+				<data>
+				AQ==
+				</data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
@@ -586,7 +556,7 @@
 				</data>
 				<key>prev-lang:kbd</key>
 				<data>
-				cnUtUlU6MjUy
+				emgtSGFuczoyNTI=
 				</data>
 			</dict>
 		</dict>

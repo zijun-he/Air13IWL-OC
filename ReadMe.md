@@ -1,4 +1,4 @@
-## Lenovo 小新 Air13IWL OpenCore `(xlivans)`
+##  Lenovo 小新 Air13IWL OpenCore `(xlivans)`
 ### 感谢 宪武 小兵 各位群友 大佬们 为此机型的辛苦付出
 
 ##### 如何安装系统请跳跃至小兵大佬教程 : https://github.com/daliansky/Lenovo-Air13-IWL
@@ -12,6 +12,17 @@
 ##### 微云 : https://share.weiyun.com/5yMO9jB
 
 ----
+
+#### 2019-08-20
+
++ 移除操作系统更名,移除亮度快捷键更名及其相关补丁
+
++ 使用`SSDT-RMCFMap.aml`定制PS2键盘,屏蔽无用键,新增功能键
+
+    + Fn+F4=上一曲
+    + Fn+F7=下一曲
+    + PrtSc=播放/暂停
++ 由于移除操作系统更名,使用`SSDT-TPXX.aml`驱动触摸板
 
 #### 2019-08-13
 
