@@ -58,7 +58,7 @@
 #### 2019-08-04
 
 + 移除`SSDT-Air13IWL.aml`中的`OCOS`补丁
-+ 添加`宪武`大佬最新`Windows 2018 to Darwin`更名补丁
++ 添加`宪武`大佬最新`Windows 2018 to Darwin`操作系统更名
 
 #### 2019-08-03
 
